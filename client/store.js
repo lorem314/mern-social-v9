@@ -30,7 +30,7 @@ class Chat {
   }
 
   get getCountNewMessage() {
-    return this.countNewMessage
+    return this.countNewMessage || 0
   }
 
   get lastMessage() {
